@@ -1,0 +1,25 @@
+<mat-card class="mt-5">
+    <mat-card-header>
+        <mat-card-title>Episodio random</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+
+        <form [formGroup]="episodeForm" class="basic-form">
+            <mat-form-field class="example-full-width">
+                <mat-label>Name</mat-label>
+                <input formControlName="name" matInput type="text">
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+                <mat-label>Air date</mat-label>
+                <input formControlName="air_date" matInput type="text">
+            </mat-form-field>
+
+            <mat-form-field class="example-full-width">
+                <mat-label>Episode</mat-label>
+                <input formControlName="episode" matInput type="text">
+            </mat-form-field>
+
+        </form>
+    </mat-card-content>
+</mat-card>

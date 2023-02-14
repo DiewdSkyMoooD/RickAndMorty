@@ -1,0 +1,9 @@
+<div class="top-element">
+    <h1>Rick and Morty</h1>
+    <button (click)="save()" mat-fab aria-label="Example icon button with a heart icon">
+        +
+    </button>
+</div>
+<app-info-person [person]="allInfoForm.get('person')"></app-info-person>
+<app-location-person [location]="allInfoForm.get('location')"></app-location-person>
+<app-episode-person [episode]="allInfoForm.get('episode')"></app-episode-person>

@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body{
+    background:#EDF0F6 ;
+}
+
+.basic-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+
+}
+
+.example-full-width{
+    display: block;
+    margin: 10px;
+}
+
+.mt-5{
+    margin-top: 1.5rem;
+}
